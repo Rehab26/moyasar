@@ -187,7 +187,7 @@ class _CreditCardState extends State<CreditCard> {
                         color: Colors.white,
                         strokeWidth: 2,
                       )
-                    : Text(showAmount(widget.config.amount, widget.locale)),
+                    : Text('تأكيد الطلب'),
               ),
             ),
           ),
@@ -302,4 +302,4 @@ OutlineInputBorder defaultErrorBorder = OutlineInputBorder(
     borderSide: const BorderSide(color: Colors.red),
     borderRadius: defaultBorderRadius);
 
-Color blueColor = Colors.blue[700]!;
+Color blueColor = const Color.fromARGB(255, 0, 109, 119);
